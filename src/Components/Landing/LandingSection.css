@@ -6,9 +6,9 @@
 }
 
 .hero-sec img{
-    margin-top: 50px;
-    height: 20rem;
-    width: 20rem;
+    margin-top: 45px;
+    height: 18rem;
+    width: 18rem;
 }
 
 .hero-sec h1 {
@@ -40,3 +40,19 @@
     font-weight: 500;
     margin-bottom: 50px;
 }
+
+.download-CV {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+/* add hover */
+
+.linkedin {
+    padding: 22px 75px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* add hover */

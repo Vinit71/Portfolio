@@ -15,7 +15,7 @@ function LandingSection() {
         {/* buttons */}
         <div className="hero-action">
             <div className="download-CV">Download CV</div>
-            <div className="linkedin">Linkdin</div>
+            <div className="linkedin">LinkedIn</div>
         </div>
 
     </div>
