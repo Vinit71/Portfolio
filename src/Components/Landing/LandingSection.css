@@ -1,0 +1,42 @@
+.hero-sec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-sec img{
+    margin-top: 50px;
+    height: 20rem;
+    width: 20rem;
+}
+
+.hero-sec h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 7=0px;
+    font-weight: 400;
+}
+
+.hero-sec h1 span {
+    background-color: yellow;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-sec p{
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}

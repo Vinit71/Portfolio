@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 50px;
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+}
+
+.connect-btn{
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: blue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.connect-btn:hover{
+    /* change */
+    transform: scale(1.05); 
+}
