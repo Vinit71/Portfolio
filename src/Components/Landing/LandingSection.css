@@ -6,15 +6,15 @@
 }
 
 .hero-sec img{
-    margin-top: 45px;
-    height: 18rem;
-    width: 18rem;
+    margin-top: 28px;
+    height: 17.5rem;
+    width: 17.5rem;
 }
 
 .hero-sec h1 {
     text-align: center;
     width: 70%;
-    font-size: 7=0px;
+    font-size: 57px;
     font-weight: 400;
 }
 
@@ -28,31 +28,39 @@
 .hero-sec p{
     width: 50%;
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 40px;
 }
 
 .hero-action {
+    margin-top: 2px;
     display: flex;
     align-items: center;
     gap: 25px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .download-CV {
-    padding: 25px 45px;
+    padding: 20px 40px;
     border-radius: 50px;
     background-color: lightcoral;
     cursor: pointer;
 }
-/* add hover */
+.download-CV:hover {
+    background-color: white;
+    color: lightcoral;
+}
 
 .linkedin {
-    padding: 22px 75px;
+    padding: 17px 70px;
     border-radius: 50px;
     border: 2px solid white;
     cursor: pointer;
+}
+.linkedin:hover {
+    background-color: lightcoral;
+    color: white;
 }
 /* add hover */
