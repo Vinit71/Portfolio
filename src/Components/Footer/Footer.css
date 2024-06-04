@@ -1,0 +1,85 @@
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.f-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.f-top-left p {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.f-top-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;   
+}
+
+.f-email-input {
+    display: flex;
+    gap: 30px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+    border: 1px solid blue;
+    background: lightgray;
+    padding-right: 80px;
+}
+.f-email-input img {
+    width: 30px;
+    height: 30px;
+}
+.f-email-input input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 18px;
+}
+.f-email-input:hover {
+    border: 0.1px solid white;
+
+}
+
+.f-subscribe {
+    font-size: 22px;
+    padding: 14px 32px;
+    border-radius: 50px;
+    /* background: linear-gradient(264deg, #fcff82 -5.09%, #fd5959 106.28%); */
+    background-color: #ffc300;
+    color: #000814;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.f-subscribe:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.f-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+/* .f-bottom-left {
+
+} */
+
+.f-bottom-right {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+
+}
