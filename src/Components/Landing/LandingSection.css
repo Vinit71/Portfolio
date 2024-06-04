@@ -6,7 +6,7 @@
 }
 
 .hero-sec img{
-    margin-top: 28px;
+    margin-top: 24px;
     height: 17.5rem;
     width: 17.5rem;
 }
@@ -16,20 +16,23 @@
     width: 70%;
     font-size: 57px;
     font-weight: 400;
+    margin-top: -5px;
 }
 
 .hero-sec h1 span {
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-color: #ffc300;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hero-sec p{
+    margin-top: -10px;
     width: 50%;
     text-align: center;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .hero-action {
@@ -39,28 +42,30 @@
     gap: 25px;
     font-size: 22px;
     font-weight: 500;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 .download-CV {
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 50px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
+    background-color: #ffc300;
+    color: #000814;
     cursor: pointer;
 }
 .download-CV:hover {
     background-color: white;
-    color: lightcoral;
+    /* color: lightcoral; */
 }
 
 .linkedin {
-    padding: 17px 70px;
+    padding: 15px 55px;
     border-radius: 50px;
     border: 2px solid white;
     cursor: pointer;
 }
 .linkedin:hover {
-    background-color: lightcoral;
-    color: white;
+    /* background-color: lightcoral; */
+    color: #ffc300;
 }
 /* add hover */

@@ -24,7 +24,7 @@
 .project-section img {
     /* object-fit: cover; */
     padding: 2px;
-    background-color: orange;
+    background-color: #ffc300;
     box-sizing: border-box;
     width: 440px;
     height: 300px;
@@ -35,6 +35,7 @@
 .project-section img:hover {
     transform: scale(1.06);
     /* border: 4px solid orange; */
+    background-color: white;
     border-radius: 10px;
     transition: 0.5s;
 }

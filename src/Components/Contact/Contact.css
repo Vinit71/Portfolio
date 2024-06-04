@@ -31,10 +31,11 @@
 
 .contact-left h1 {
     margin-top: 0.5rem;
-    margin-left: -27rem;
+    margin-right: 31rem;
     font-size: 55px;
     font-weight: 600;
-    background: linear-gradient(264deg, #fcff82 -5.09%, #fd5959 106.28%);
+    /* background: linear-gradient(264deg, #fcff82 -5.09%, #fd5959 106.28%); */
+    background-color: #ffc300;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,6 +53,7 @@
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    /* border: 2px solid #fcff82; */
     gap: 30px;
 }
 .contact-detail{
@@ -79,6 +81,7 @@
     width: 500px;
     height: 50px;
     padding-left: 20px;
+    /* border: 2px solid #fcff82; */
     border-radius: 2px;
     background: lightgray;
     color: lightblue;
@@ -86,7 +89,7 @@
 }
 
 .contact-right textarea {
-    width: 475px;
+    width: 500px;
     height: 100px;
     border: none;
     padding: 25px;
@@ -94,4 +97,23 @@
     background: lightgray;
     color: lightblue;
     font-size: 20px;
+}
+
+.contact-btn {
+    border: none;
+    border-radius: 50px;
+    /* background: linear-gradient(264deg, #fcff82 -5.09%, #fd5959 106.28%); */
+    background-color: #ffc300;
+    color: #000814;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 10px 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-btn:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
 }

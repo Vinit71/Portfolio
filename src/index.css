@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *{
     margin: 0;
     padding: 0;
@@ -6,5 +9,7 @@
 body{
     height: 100vh;
     color: white;
-    background-color: #272343;
+    /* background-color: #272343; */
+    background-color: #000814;
+    /* background-color: black; */
 }
