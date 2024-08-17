@@ -1,4 +1,3 @@
-// import './Footer.css'
 function Footer() {
   return (
     <div className='mx-4 sm:mx-8 md:mx-12 my-8 flex flex-col gap-7 py-10'>
