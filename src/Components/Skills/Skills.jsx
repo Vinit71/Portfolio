@@ -1,4 +1,3 @@
-import React from 'react'
 import html from '../../assets/skillsImg/html.png'
 import css from '../../assets/skillsImg/css.png'
 import js from '../../assets/skillsImg/js.png'
@@ -9,7 +8,7 @@ import java from '../../assets/skillsImg/java.png'
 import cpp from '../../assets/skillsImg/cpp.png'
 import github from '../../assets/skillsImg/github.png'
 
-import './Skills.css'
+// import './Skills.css'
 function Skills() {
     const mySkills = [
         {
@@ -68,14 +67,14 @@ function Skills() {
         }
     ]
   return (
-    <div className='skills'>
-        <div className="skills-title">
-            <h1>Skills</h1>
+    <div className='skills mt-10'>
+        <div className="flex justify-center mb-1 sm:mb-1 md:mb-1 lg:mb-1">
+            <h1 className='text-[32px] font-bold sm:text-2xl md:text-6xl lg:text-6xl'>Skills</h1>
         </div>
     <div className='w-full h-screen'>
-        <div className='max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+        <div className='max-w-screen-xl mx-auto flex flex-col justify-center w-full text-white'>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
 
                 {
                     mySkills.map(({id, src, title, style})=>(
@@ -85,11 +84,8 @@ function Skills() {
                         </div>
                     ))
                 }
-               
-               
             </div>
-        </div>
-       
+        </div> 
     </div>
     </div>
   )

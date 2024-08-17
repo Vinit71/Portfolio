@@ -1,6 +1,5 @@
 import LandingSection from "./Components/Landing/LandingSection"
 import Navbar from "./Components/Navbar/Navbar"
-import About from "./Components/About/About"
 import MyProjects from "./Components/Projects/MyProjects"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
@@ -12,7 +11,6 @@ function App() {
     <>
       <Navbar />
       <LandingSection />
-      {/* <About /> */}
       <Skills />
       <MyProjects />
       <Contact />

@@ -1,26 +1,11 @@
-import React from 'react'
-import './Footer.css'
-import emailIcon from '../../assets/emailIcon.svg'
+// import './Footer.css'
 function Footer() {
   return (
-    <div className='footer'>
-        <div className="f-top">
-            <div className="f-top-left">
-                {/* <img src="" alt="" /> */}
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, corporis!</p>
-            </div>
-            <div className="f-top-right">
-                <div className="f-email-input">
-                    <img src={emailIcon} alt="" />
-                    <input type="text" placeholder='Enter your email'/>
-                </div>
-                <div className="f-subscribe">Subscribe</div>
-            </div>
-        </div>
+    <div className='mx-4 sm:mx-8 md:mx-12 my-8 flex flex-col gap-7 py-10'>
         <hr />
-        <div className="f-bottom">
-            <p className="f-bottom-left">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            <div className="f-bottom-right">
+        <div className="flex flex-col sm:flex-row justify-between text-base sm:text-lg">
+            <p className="max-w-full sm:max-w-md mb-4 sm:mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 md:gap-12 mb-4 sm:mb-0">
                 <p>Lorem, ipsum dolor.</p>
                 <p>Lorem, ipsum dolor.</p>
                 <p>Lorem, ipsum.</p>
