@@ -2,7 +2,7 @@ import projectObj from './projectObj.js'
 
 function MyProjects() {
   return (
-    <div className="mt-40 sm:mt-0 md:mt-10 lg:my-20 flex flex-col items-center justify-center gap-7 sm:gap-10 md:gap-10 lg:gap-10 mx-[60px]">
+    <div id='projects' className="mt-40 sm:mt-0 md:mt-10 lg:my-20 flex flex-col items-center justify-center gap-7 sm:gap-10 md:gap-10 lg:gap-10 mx-[60px]">
     <div className="">
       <h1 className="text-[32px] font-bold sm:text-2xl md:text-6xl lg:text-6xl">My Projects</h1>
     </div>
