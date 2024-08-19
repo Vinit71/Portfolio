@@ -66,7 +66,7 @@ function Skills() {
         }
     ]
   return (
-    <div className='skills my-10 lg:my-20'>
+    <div id='skills' className='skills my-10 lg:my-20'>
         <div className="flex justify-center mb-1 sm:mb-1 md:mb-1 lg:mb-1">
             <h1 className='text-[32px] font-bold sm:text-2xl md:text-6xl lg:text-6xl'>Skills</h1>
         </div>
