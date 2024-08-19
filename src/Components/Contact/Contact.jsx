@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="flex flex-col items-center justify-center  lg:gap-[75px] my-10 lg:my-20 lg:mx-[170px]">
+    <div id="contact" className="flex flex-col items-center justify-center  lg:gap-[75px] my-10 lg:my-20 lg:mx-[170px]">
       <div className="flex flex-col items-center px-[25px] mb-[35px] lg:mb-0 lg:text-center">
         <h1 className="text-[32px] font-bold sm:text-2xl md:text-6xl lg:text-6xl">
           Contact me
@@ -20,7 +20,7 @@ function Contact() {
 
           <div className="mt-3 text-white text-[20px] flex justify-center  gap-[30px] lg:gap-[50px]">
             <a href="">vinitkumarg22@gmail.com</a>
-            <a href="">9999999999</a>
+            <a href="">750*****13</a>
           </div>
         </div>
 
