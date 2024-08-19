@@ -2,7 +2,7 @@ import portfolioProfile from '../../assets/portfolioProfile.webp'
 
 function LandingSection() {
   return (
-    <div className='flex flex-col items-center gap-8 mt-6'>
+    <div id='home' className='flex flex-col items-center gap-8 mt-6'>
         {/* profile image */}
       <img src={portfolioProfile} alt="" 
       className="mt-6 h-[17.5rem] w-[17.5rem]"
@@ -15,8 +15,12 @@ function LandingSection() {
 
         {/* buttons */}
         <div className="flex items-center gap-6 mt-1 text-[22px] font-medium">
-            <div className="bg-[#ffc300] text-[#000814] rounded-full px-6 py-3 cursor-pointer hover:bg-white hover:text-[#000814] transition-colors">Download CV</div>
-            <div className="border-2 border-white rounded-full px-10 py-3 cursor-pointer hover:text-[#ffc300] transition-colors">GitHub</div>
+            <div className="bg-[#ffc300] text-[#000814] rounded-full px-6 py-3 cursor-pointer hover:bg-white hover:text-[#000814] transition-colors">
+              <a href="">Download CV</a>
+            </div>
+            <div className="border-2 border-white rounded-full px-10 py-3 cursor-pointer hover:text-[#ffc300] transition-colors">
+              <a href="https://github.com/Vinit71" target="_blank">GitHub</a>
+            </div>
         </div>
 
     </div>
