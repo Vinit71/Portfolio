@@ -1,4 +1,4 @@
-import portfolioProfile from '../../assets/portfolioProfile.webp'
+import portfolioProfile from '../../assets/profile1.webp'
 
 function LandingSection() {
   return (
@@ -10,7 +10,7 @@ function LandingSection() {
 
         {/* Bio */}
         <h1 className='text-center text-[30px] lg:text-[54px] font-normal mt-[-5px] w-[70%] leading-tight'>
-          <span className='flex justify-center lg:text-[56px] bg-[#ffc300] bg-clip-text text-transparent font-bold'>Hello! I'm Vinit</span> Frontend Developer</h1>
+          <span className='flex justify-center lg:text-[56px] bg-[#ffc300] bg-clip-text text-transparent font-bold'>Hello! I&apos;m Vinit</span> Frontend Developer</h1>
         <p className='text-center text-[24px] leading-[35px] mt-[-10px] w-[50%]'> Frontend developer with deep expertise in React and JavaScript, focused on developing high-performance user interfaces.</p>
 
         {/* buttons */}

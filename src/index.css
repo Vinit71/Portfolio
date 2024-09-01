@@ -11,5 +11,13 @@ body{
     color: white;
     /* background-color: #272343; */
     background-color: #000814;
+    /* background-color: #001E2A; */
     /* background-color: black; */
 }
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
